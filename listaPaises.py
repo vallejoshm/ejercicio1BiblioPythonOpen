@@ -2,7 +2,6 @@ from pickle import *
 
 def listaPaises(cadena):
     cad = cadena.replace(' ', '')
-    print(cad)
     lista = cad.split(',')
 
     for elem in lista:
